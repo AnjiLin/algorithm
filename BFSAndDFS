@@ -1,3 +1,5 @@
+树的介绍和遍历参考：
+https://mp.weixin.qq.com/s?__biz=MzU0ODMyNDk0Mw==&mid=2247487028&idx=1&sn=e06a0cd5760e62890e60e43a279a472b&chksm=fb419d14cc36140257eb220aaeac182287b10c3cab5c803ebd54013ee3fc120d693067c2e960&scene=21#wechat_redirect
 
 1、BFS Breadth First Search(广度优先搜索)： 类似层序遍历，遍历每一层的各个节点，用queue队列来存储。如果是图的话，先把根节点放进队列，从队列里面取出节点时，
 把该节点相连的并且没有被遍历过的节点入队列，以此类推，直到遍历完队列的所有节点。从队列里面遍历节点的次序即为用BFS遍历该图的节点次序。
@@ -9,4 +11,4 @@
 带权重的图，用优先队列来存储。遍历优先队列里面的每个节点，把该节点相关联的节点都存储进优先队列（已从优先队列读取处理的节点无需存进去），节点的权重值为从头节点开始到该节点的距离的值，
 权重值小的排在优先队列前面，以此类推，直到遍历完所有优先队列的所有节点。从优先队列里面遍历节点的次序即为Dijkstra算法从头节点到各个节点的最短距离。
 
-参考：https://space.bilibili.com/24014925/channel/detail?cid=12580&ctype=0
+tips: 图的BFS和DFS遍历，Dijkstra算法参考：https://space.bilibili.com/24014925/channel/detail?cid=12580&ctype=0
